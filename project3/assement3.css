@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.grid-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+justify-content: center;
+height: 80%;
+}
+
+.grid-item {
+width: 200px;
+height: 200px;
+text-align: center;
+
+}
+.grid-item img {
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
